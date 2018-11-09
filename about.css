@@ -1,0 +1,24 @@
+body {
+  font-family: helvetica, sans-serif;
+  color: #0489a9;
+}
+
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: absolute;
+    top: 28px;
+    right: 20px;
+}
+.navbar a {
+    color: #0489a9;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar a:hover {
+    background-color: #fff209;
+    color: #8a6bb9;
+    font-style: italic;
+}
