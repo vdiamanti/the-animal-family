@@ -32,6 +32,14 @@ h1 {
     font-style: italic;
 }
 
+.container2{
+    background-image: url("can-cats-eat-dog-food-header.jpg");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 input[type=text], select, textarea {
     width: 100%;
