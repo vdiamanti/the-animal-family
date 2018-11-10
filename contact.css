@@ -89,7 +89,6 @@ input[type=submit]:hover {
 }
 
 .footer {
-    margin-left: 30px;
-    margin-right: 30px;
+    justify-content: center;
      
 }
