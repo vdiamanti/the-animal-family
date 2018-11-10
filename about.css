@@ -27,12 +27,14 @@ body {
 .table {
   font-size: 16px;
 }
+
 .hvrbox .hvrbox-layer_slideup {
 	-moz-transform: translateY(100%);
 	-webkit-transform: translateY(100%);
 	-ms-transform: translateY(100%);
 	transform: translateY(100%);
 }
+
 .hvrbox:hover .hvrbox-layer_slideup,
 .hvrbox.active .hvrbox-layer_slideup {
 	-moz-transform: translateY(0);
