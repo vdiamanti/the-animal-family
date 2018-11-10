@@ -32,14 +32,6 @@ h1 {
     font-style: italic;
 }
 
-.footer {
-    padding: 50px 50px 50px 50px;
-    float: center;
-    position: relative;
-    top: 10px;
-    left: 10px;
-}
-
 .container2 {
     background-image: url("can-cats-eat-dog-food-header.jpg");
     height: 700px;
