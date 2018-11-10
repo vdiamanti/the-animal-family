@@ -87,3 +87,9 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 }
+
+.footer {
+    margin-left: 30px;
+    margin-right: 30px;
+     
+}
