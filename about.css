@@ -22,3 +22,6 @@ body {
     color: #8a6bb9;
     font-style: italic;
 }
+.container2 a:hover{
+    opacity: 0.7;
+}
