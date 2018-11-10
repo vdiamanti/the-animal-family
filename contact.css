@@ -35,6 +35,9 @@ h1 {
 .footer {
     padding: 50px 50px 50px 50px;
     float: center;
+    position: relative;
+    top: 10px
+    left: 10px
 }
 
 .container2 {
