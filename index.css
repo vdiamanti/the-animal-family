@@ -130,7 +130,7 @@ h1 {
     clear: both;
     display: table;
 }
-@media screen and (max-width: 500px) {
+@media sThe UK's leadcreen and (max-width: 500px) {
     .column {
         width: 100%;
     }
@@ -159,6 +159,19 @@ h1 {
   background-color:#fff209;
   color:#fff209;
   border: 0 none;
+ }
+ .fam3 {
+   background: #ffffff;
+   color: #8a6bb9;
+   font-size: 30px;
+   text-align: center;
+   height: 10%;
+   width:100%;
+   vertical-align:middle;
+   text-align: middle;
+   margin: auto;
+   line-height: 120px;
+   padding: 5px 5px 5px 5px;
  }
 .footer {
     margin-left: 350px;
