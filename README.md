@@ -1,5 +1,5 @@
 # the-animal-family
-CodeFirstGirls website with Caroline Q4 2018
+CodeFirstGirls website with Carolyn Q4 2018
 -------------------------------------------------------------------------
 REQUIREMENTS
 
