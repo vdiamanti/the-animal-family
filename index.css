@@ -80,7 +80,7 @@ h1 {
   opacity: 0.75;
 }
 .familypics{
-  background: #f5f5f5;
+  background: #8a6bb9;
 }
 * {
     box-sizing: border-box;
@@ -90,7 +90,7 @@ h1 {
     float: left;
     width: 33.33%;
     padding: 1px;
-}
+  }
 
 /* Clearfix (clear floats) */
 .familypics::after {
@@ -104,19 +104,62 @@ h1 {
         width: 100%;
     }
 }
-h2 {
-  background: #f5f5f5;
-  color: #8a6bb9;
-  font-size: 50px;
+.fam1 {
+  background: #8a6bb9;
+  color: #ffffff;
+  font-size: 30px;
   text-align: center;
   height: 10%;
   width:100%;
   vertical-align:middle;
   text-align: middle;
   margin: auto;
-  line-height: 100px;
+  line-height: 120px;
+  padding: 5px 5px 5px 5px;
 }
-
+* {
+    box-sizing: border-box;
+}
+.famvid {
+    float: left;
+    width: 33.33%;
+    padding: 1px;
+}
+.familyvids::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+  }
+  .familyvids {
+    background:#0489a9;
+  }
+.fam2 {
+  background: #0489a9;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  height: 10%;
+  width:100%;
+  vertical-align:middle;
+  text-align: middle;
+  margin: auto;
+  line-height: 120px;
+  padding: 5px 5px 5px 5px;
+}
+.hr {
+  width: 80%;
+  height: 8px;
+  margin-left: 50%;
+  margin-right: 50%;
+  background-color:#fff209;
+  color:#fff209;
+  border: 0 none;
+ }
 .footer {
     margin-left: 350px;
     margin-right: 350px;
