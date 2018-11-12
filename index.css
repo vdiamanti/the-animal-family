@@ -30,12 +30,13 @@ img {
     color: #8a6bb9;
     font-style: italic;
 }
-.container2{
+.container2 {
     background-image: url("can-cats-eat-dog-food-header.jpg");
     height: 700px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 0em;
 }
 .h1box {
     border-style: groove;
@@ -50,7 +51,7 @@ img {
     color: white;
     opacity: 0.75;
     width: 50%;
-    height: 100px;
+    height: 200px;
 }
 h1 {
   color: #ffffff;
@@ -78,6 +79,7 @@ h1 {
   height: 140px;
   font-size: 25px;
   opacity: 0.75;
+  margin-top: 4em;
 }
 .familypics{
   background: #8a6bb9;
