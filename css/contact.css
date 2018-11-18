@@ -1,17 +1,16 @@
-* {
-    box-sizing: border-box;
+*body {
+  font-family: "helvetica", sans-serif;
 }
-
-body {
-  font-family: helvetica, sans-serif;
-  color: #0489a9;
+img {
+  margin: 0px 0px 0px 0px;
 }
-
-h1 {
-   text-align: center;
-   color: #0489a9;
+.container1 {
+  top: 28px;
+  right: 20px;
+  padding: 25px 25px 25px 25px;
+  position:fixed;
+  width: 45%;
 }
-
 .navbar {
     background-color: #ffffff;
     overflow: hidden;
@@ -27,20 +26,23 @@ h1 {
     font-weight: bold;
 }
 .navbar a:hover {
-    background-color: #fff209;
-    color: #8a6bb9;
+    background-color: #8a6bb9;
+    color: #ffffff;
     font-style: italic;
 }
-
 .container2 {
-    background-image: url("can-cats-eat-dog-food-header.jpg");
+    background-image: url("../img/can-cats-eat-dog-food-header.jpg");
     height: 700px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
+h1 {
+  font-size: 50px;
+  text-align: center;
+  height: 10%;
+  width:100%;
+}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -69,7 +71,7 @@ input[type=submit]:hover {
 }
 
 .column {
- 
+
     width: 50%;
     margin-top: 10px;
     padding: 40px;
@@ -87,9 +89,9 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 }
-
 .footer {
+    position: relative;
+    text-align: center;
     margin-left: 350px;
     margin-right: 350px;
-     
 }
