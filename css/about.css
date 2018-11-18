@@ -1,0 +1,108 @@
+
+body {
+  font-family: helvetica, sans-serif;
+  color: #0489a9;
+}
+img {
+  margin: 0px 0px 0px 0px;
+}
+.container1 {
+  top: 28px;
+  right: 20px;
+  padding: 25px 25px 25px 25px;
+  position:fixed;
+  width: 45%;
+}
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: absolute;
+    top: 28px;
+    right: 20px;
+}
+.navbar a {
+    color: #0489a9;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar a:hover {
+    background-color: #fff209;
+    color: #8a6bb9;
+    font-style: italic;
+}
+.container2{
+    background-image: url("../img/can-cats-eat-dog-food-header.jpg");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h1box {
+    border-style: groove;
+    border-color: #0489a9;
+    border-width: 2px;
+    background: #0489a9;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0.75;
+    width: 50%;
+    height: 100px;
+}
+h1 {
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+  height: 10%;
+  width:100%;
+  vertical-align:middle;
+  text-align: middle;
+  margin: auto;
+  line-height: 100px;
+}
+.about-content {
+  background-color:#ffffff;
+}
+#carolyn {
+color: #0489a9;
+}
+#vi {
+  color: #8a6bb9;
+}
+marquee {
+  color: #8a6bb9;
+  font-style: bold;
+  font-size: 20px;
+}
+.about-content p {
+  padding: 5px;
+  margin: 5px;
+  font-size: 18px;
+}
+.about-content h2 {
+  padding: 5px;
+  margin: 5px;
+}
+.about-img-bg {
+  padding: 20px 20px 20px 20px;
+  float: right;
+}
+.about-img {
+  width: 490px;
+}
+#social .link{
+  padding: 15px;
+  font-size: 40px;
+  display: inline-block;
+}
+.footer {
+    position: relative;
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+}
