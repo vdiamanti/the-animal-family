@@ -130,7 +130,7 @@ h1 {
     clear: both;
     display: table;
 }
-@media sThe UK's leadcreen and (max-width: 300px) {
+@media screen and (max-width: 300px) {
     .column {
         width: 100%;
     }
