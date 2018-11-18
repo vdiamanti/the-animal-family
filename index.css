@@ -104,7 +104,7 @@ h1 {
         width: 100%;
     }
 }
-.fam1 {
+#fam1 {
   background: #8a6bb9;
   color: #ffffff;
   font-size: 30px;
@@ -114,7 +114,7 @@ h1 {
   vertical-align:middle;
   text-align: middle;
   margin: auto;
-  line-height: 120px;
+  line-height: 100px;
   padding: 5px 5px 5px 5px;
 }
 * {
@@ -125,20 +125,20 @@ h1 {
     width: 33.33%;
     padding: 1px;
 }
-.familyvids::after {
+#familyvids::after {
     content: "";
     clear: both;
     display: table;
 }
-@media sThe UK's leadcreen and (max-width: 500px) {
+@media sThe UK's leadcreen and (max-width: 300px) {
     .column {
         width: 100%;
     }
   }
-  .familyvids {
+  #familyvids {
     background:#0489a9;
   }
-.fam2 {
+#fam2 {
   background: #0489a9;
   color: #ffffff;
   font-size: 30px;
@@ -148,7 +148,7 @@ h1 {
   vertical-align:middle;
   text-align: middle;
   margin: auto;
-  line-height: 120px;
+  line-height: 100px;
   padding: 5px 5px 5px 5px;
 }
 .hr {
@@ -160,7 +160,7 @@ h1 {
   color:#fff209;
   border: 0 none;
  }
- .fam3 {
+ #fam3 {
    background: #ffffff;
    color: #8a6bb9;
    font-size: 30px;
