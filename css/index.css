@@ -4,12 +4,15 @@ body {
 img {
   margin: 0px 0px 0px 0px;
 }
+.jumbotron {
+  background-color: transparent !important;
+}
 .container1 {
-  top: 28px;
+  top: 20px;
   right: 20px;
   padding: 25px 25px 25px 25px;
   position:fixed;
-  width: 45%;
+  width: 40%;
 }
 .navbar {
     background-color: #ffffff;
@@ -26,12 +29,12 @@ img {
     font-weight: bold;
 }
 .navbar a:hover {
-    background-color: #fff209;
-    color: #8a6bb9;
-    font-style: italic;
+  background-color: #8a6bb9;
+  color: #ffffff;
+  font-style: italic;
 }
 .container2{
-    background-image: url("../img/can-cats-eat-dog-food-header.jpg");
+    background-image: url("../img/4701213993_5ea81764ff_b.jpg");
     height: 700px;
     background-position: center;
     background-size: cover;
@@ -163,15 +166,21 @@ h1 {
  #fam3 {
    background: #ffffff;
    color: #8a6bb9;
-   font-size: 30px;
-   text-align: center;
-   height: 10%;
-   width:100%;
-   vertical-align:middle;
-   text-align: middle;
+   font-size: 15px;
+   vertical-align: middle;
    margin: auto;
-   line-height: 120px;
-   padding: 5px 5px 5px 5px;
+   line-height: 30px;
+ }
+ #row {
+   border-bottom: 1px groove #8a6bb9;
+   padding-bottom: 5px;
+ }
+ #volume {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   text-align: justify;
  }
 .footer {
     position: relative;
