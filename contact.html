@@ -3,10 +3,13 @@
 <head>
     <link href="css/contact.css" rel="stylesheet">
   <title> Contact Us </title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+  integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link href="css/bootstrap.css" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
   <div class="container-fluid">
@@ -28,66 +31,52 @@
       <div class="about-content">
         <div class="row">
           <div id="carolynfollow" class="col-xs-6">
-            <div class="registration-form">
-              <header>
-                <h1>Want more news about Maisie and Tinkerbell?</h1>
-                <p>Sign up here for more content here!</p>
-              </header>
-              <form>
-                <div class="input-section email-section">
-                  <input class="email" type="email" placeholder="ENTER YOUR EMAIL HERE" autocomplete="off"/>
-                  <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span>
-                    <span class="next-button email"><i class="fa fa-arrow-up"></i></span>
-                  </div>
-                </div>
-                <div class="input-section text-section folded">
-                  <input class="text" type="text" placeholder="ENTER YOUR EMAIL HERE"/>
-                  <div class="animated-button"><span class="icon-lock"><i class="fa fa-lock"></i></span>
-                    <span class="next-button password"><i class="fa fa-arrow-up"></i></span>
-                  </div>
-                </div>
-                <div class="input-section message-section folded">
-                  <input class="message" type="text" placeholder="LEAVE ME A MESSAGE"/>
-                  <div class="animated-button"><span class="icon-repeat-lock"><i class="fa fa-lock"></i></span>
-                    <span class="next-button repeat-password"><i class="fa fa-paper-plane"></i></span>
-                  </div>
-                </div>
-                <div class="success">
-                  <p>Thank you for subscribing! I will be in touch soon.</p>
-                </div>
-              </form>
-            </div>
-          </div>
+            <form action="index.html" method="post">
+                  <h3><center>More on Tinkerbell and Maisie<center></h3>
+                  <fieldset>
+                    <legend></span><center>Your basic info</center></legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
 
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email">
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="user_password">
+                  </fieldset>
+                  <fieldset>
+                  <label for="job">Yes, sign me up for news on: </label>
+                  <br />
+                    <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Maisie</label><br>
+                      <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Tinkerbell</label><br>
+                    <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Both!</label>
+                  </fieldset>
+                  <button type="submit">Sign Me Up!</button>
+                </form>
+          </div>
           <div id="violetafollow" class="col-xs-6">
-            <div class="registration-form">
-              <header>
-                <h1>Want more news about Fluffy and Trixie?</h1>
-                <p>Sign up here for more content here!</p>
-              </header>
-              <form>
-                <div class="input-section email-section">
-                  <input class="email" type="email" placeholder="ENTER YOUR EMAIL HERE" autocomplete="off"/>
-                  <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span>
-                    <span class="next-button email"><i class="fa fa-arrow-up"></i></span>
-                  </div>
-                </div>
-                <div class="input-section text-section folded">
-                  <input class="text" type="text" placeholder="ENTER YOUR EMAIL HERE"/>
-                  <div class="animated-button"><span class="icon-lock"><i class="fa fa-lock"></i></span>
-                    <span class="next-button password"><i class="fa fa-arrow-up"></i></span>
-                  </div>
-                </div>
-                <div class="input-section message-section folded">
-                  <input class="message" type="text" placeholder="LEAVE ME A MESSAGE"/>
-                  <div class="animated-button"><span class="icon-repeat-lock"><i class="fa fa-lock"></i></span>
-                    <span class="next-button repeat-password"><i class="fa fa-paper-plane"></i></span>
-                  </div>
-                </div>
-                <div class="success">
-                  <p>Thank you for subscribing! I will be in touch soon.</p>
-                </div>
-              </form>
+            <form action="index.html" method="post">
+                  <h3><center>More on Fluffy and Trixie<center></h3>
+                  <fieldset>
+                    <legend></span><center>Your basic info</center></legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email">
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="user_password">
+                  </fieldset>
+                  <fieldset>
+                  <label for="job">Yes, sign me up for news on: </label>
+                  <br />
+                    <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Fluffy</label><br>
+                      <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Trixie</label><br>
+                    <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Both!</label>
+                  </fieldset>
+                  <button type="submit">Sign Me Up!</button>
+                </form>
             </div>
 
           </div>
@@ -112,9 +101,8 @@
 </a>
 <a href="https://instagram.com/">
 <img title="Instagram" alt="Insta" src="img/InstaIcon.png" width="50" height="50" hspace=20 />
-  </a> </div>
-<script src="js/contact.js"></script>
-
+  </a>
+</div>
  </div>
  </div>
 </body>
