@@ -4,6 +4,9 @@
 img {
   margin: 0px 0px 0px 0px;
 }
+.jumbotron {
+  background-color: transparent !important;
+}
 .container1 {
   top: 28px;
   right: 20px;
@@ -31,19 +34,29 @@ img {
     font-style: italic;
 }
 .container2 {
-    background-image: url("../img/can-cats-eat-dog-food-header.jpg");
+    background-image: url("../img/4701213993_5ea81764ff_b.jpg");
     height: 700px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-h1 {
-  font-size: 50px;
-  text-align: center;
-  height: 10%;
-  width:100%;
-  color: #0489a9;
+#carolynfollow {
+  left: 5px;
+  top: 370px;
+  opacity: 0.7;
 }
+#violetafollow {
+  right: 5px;
+  top: 370px;
+  opacity: 0.7;
+}
+.back {
+  background: linear-gradient(120grad, #643986, #98aed5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .registration-form {
   width: 400px;
   position: absolute;
@@ -206,7 +219,6 @@ h1 {
   width: 100%;
   text-align: center;
 }
-
 .footer {
     position: relative;
     text-align: center;
