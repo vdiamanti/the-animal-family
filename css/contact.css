@@ -15,7 +15,6 @@ img {
   width: 45%;
 }
 .navbar {
-    background-color: #ffffff;
     overflow: hidden;
     position: absolute;
     top: 28px;
@@ -29,9 +28,8 @@ img {
     font-weight: bold;
 }
 .navbar a:hover {
-    background-color: #8a6bb9;
-    color: #ffffff;
-    font-style: italic;
+  color: #8a6bb9;
+  font-style: italic;
 }
 .container2 {
     background-image: url("../img/4701213993_5ea81764ff_b.jpg");
