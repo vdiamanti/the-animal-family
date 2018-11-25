@@ -1,62 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="css/contact.css" rel="stylesheet">
   <title> Contact Us </title>
-  <img src="animalfamilylogosvg.svg" alt="The Animal Family" width="250" height="150">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class='jumbotron'>
+  <img src="img/animalfamilylogosvg.svg" class="img-circle" alt="The Animal Family" width="250" height="150">
+
   <div class="container1">
     <div class="navbar">
-      <a href="./index.html">Home</a>
-      <a href="./about.html">About us</a>
-      <a href="#ouranimalfamily">Our animal family</a>
-      <a href="./contact.html">Contact us</a>
+      <a href="#index">Home</a>
+      <a href="aboutus.html">About us</a>
+      <a href="#contactus">Contact us</a>
     </div>
   </div>
-<br>
-<br>
-<div class="contacttext">  
-<center> <h1> WANT TO BE MATES? </h1>
-<h2> The Animal Fam would love to hear from you </h2> Fill in the contact form below and we'll get back to you! <br> Or, follow the links to our social media where you can see EVEN MORE cute animal family pics and chat to us! <br> </center>
-<link rel="stylesheet" type="text/css" href="contact.css">
-</head> 
- 
+
   <div class="container2">
-<center><div class="column">
-      <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.." style="height:30px" "width:50px">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="height:30px" "width:50px">
-        <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="United Kingdom">United Kingdom</option>
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-        <label for="subject">Subject</label>
-        <textarea id="Subject" name="Subject" placeholder="Write to us..." style="height:80px" "width:50px"></textarea>
-        <input type="submit" value="Submit">
-      </form>
+    <div class="h1box">
+      <div class="about-content">
+        <div class="row">
+          <div id="carolynfollow" class="col-xs-6">
+            <div class="back"></div>
+            <div class="registration-form">
+              <header>
+                <h1>Want more news about Maisie and Tinkerbell?</h1>
+                <p>Sign up here for more content here!</p>
+              </header>
+              <form>
+                <div class="input-section email-section">
+                  <input class="email" type="email" placeholder="ENTER YOUR EMAIL HERE" autocomplete="off"/>
+                  <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span>
+                    <span class="next-button email"><i class="fa fa-arrow-up"></i></span>
+                  </div>
+                </div>
+                <div class="input-section text-section folded">
+                  <input class="text" type="text" placeholder="ENTER YOUR EMAIL HERE"/>
+                  <div class="animated-button"><span class="icon-lock"><i class="fa fa-lock"></i></span>
+                    <span class="next-button password"><i class="fa fa-arrow-up"></i></span>
+                  </div>
+                </div>
+                <div class="input-section message-section folded">
+                  <input class="message" type="text" placeholder="LEAVE ME A MESSAGE"/>
+                  <div class="animated-button"><span class="icon-repeat-lock"><i class="fa fa-lock"></i></span>
+                    <span class="next-button repeat-password"><i class="fa fa-paper-plane"></i></span>
+                  </div>
+                </div>
+                <div class="success">
+                  <p>Thank you for subscribing! I will be in touch soon.</p>
+                </div>
+              </form>
+            </div>
+
+
+          </div>
+          <div id="violetafollow" class="col-xs-6">
+            <div class="back"></div>
+            <div class="registration-form">
+              <header>
+                <h1>Want more news about Fluffy and Trixie?</h1>
+                <p>Sign up here for more content here!</p>
+              </header>
+              <form>
+                <div class="input-section email-section">
+                  <input class="email" type="email" placeholder="ENTER YOUR EMAIL HERE" autocomplete="off"/>
+                  <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span>
+                    <span class="next-button email"><i class="fa fa-arrow-up"></i></span>
+                  </div>
+                </div>
+                <div class="input-section text-section folded">
+                  <input class="text" type="text" placeholder="ENTER YOUR EMAIL HERE"/>
+                  <div class="animated-button"><span class="icon-lock"><i class="fa fa-lock"></i></span>
+                    <span class="next-button password"><i class="fa fa-arrow-up"></i></span>
+                  </div>
+                </div>
+                <div class="input-section message-section folded">
+                  <input class="message" type="text" placeholder="LEAVE ME A MESSAGE"/>
+                  <div class="animated-button"><span class="icon-repeat-lock"><i class="fa fa-lock"></i></span>
+                    <span class="next-button repeat-password"><i class="fa fa-paper-plane"></i></span>
+                  </div>
+                </div>
+                <div class="success">
+                  <p>Thank you for subscribing! I will be in touch soon.</p>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div> </center> 
+
+<hr size=0 />
+<div class="well">
+  <center>Do you like how this page is built? Share for the rest of the world to know! <strong>#sharingiscaring</strong></center>
 </div>
- 
-
-
-<div class="footer"> 
+<div class="footer">
 <a href="https://twitter.com/">
-<img title="Twitter" alt="Twitter" src="./TwitterIcon.png" width="50" height="50" hspace=20 />
+<img title="Twitter" alt="Twitter" src="img/TwitterIcon.png" width="50" height="50" hspace=20 />
 </a>
   <a href="https://pinterest.com/">
-<img title="Pinterest" alt="Pinterest" src="./PinterestIcon.png" width="50" height="50" hspace=20 />
+<img title="Pinterest" alt="Pinterest" src="img/PinterestIcon.png" width="50" height="50" hspace=20 />
 </a>
 <a href="https://facebook.com/">
-<img title="Facebook" alt="Facebook" src="./FBIcon.png" width="50" height="50" hspace=20 />
+<img title="Facebook" alt="Facebook" src="img/FBIcon.png" width="50" height="50" hspace=20 />
 </a>
 <a href="https://instagram.com/">
-<img title="Insta" alt="Insta" src="./InstaIcon.png" width="50" height="50" hspace=20 />
+<img title="Instagram" alt="Insta" src="img/InstaIcon.png" width="50" height="50" hspace=20 />
   </a> </div>
+<script src="js/contact.js"></script>
 
-
+ </div>
+ </div>
+</body>
 </html>
