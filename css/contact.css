@@ -15,7 +15,6 @@ img {
   width: 45%;
 }
 .navbar {
-    background-color: #ffffff;
     overflow: hidden;
     position: absolute;
     top: 28px;
@@ -29,9 +28,8 @@ img {
     font-weight: bold;
 }
 .navbar a:hover {
-    background-color: #8a6bb9;
-    color: #ffffff;
-    font-style: italic;
+  color: #8a6bb9;
+  font-style: italic;
 }
 .container2 {
     background-image: url("../img/4701213993_5ea81764ff_b.jpg");
@@ -42,182 +40,131 @@ img {
 }
 #carolynfollow {
   left: 5px;
-  top: 370px;
-  opacity: 0.7;
+  top: 10px;
+  opacity: 0.85;
 }
 #violetafollow {
   right: 5px;
-  top: 370px;
-  opacity: 0.7;
+  top: 10px;
+  opacity: 0.85;
 }
-.back {
-  background: linear-gradient(120grad, #643986, #98aed5);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.registration-form {
-  width: 400px;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0%);
-          transform: translate(-50%, 0%);
-  top: 15%;
-  background: transparent;
-}
-.registration-form header {
-  position: relative;
-  z-index: 4;
-  background: white;
-  padding: 20px 40px;
-  border-radius: 15px 15px 0 0;
-}
-.registration-form header h1 {
-  font-weight: 900;
-  letter-spacing: 1.5px;
-  color: #333;
-  font-size: 23px;
-  text-transform: uppercase;
-  margin: 0;
-}
-.registration-form header p {
-  word-spacing: 0px;
-  color: #9facb6;
-  font-size: 17px;
-  margin: 0;
-  margin-top: 5px;
-}
-.registration-form form {
-  position: relative;
-}
-.registration-form .input-section {
-  width: 100%;
-  position: absolute;
-  display: flex;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-  height: 75px;
-  border-radius: 0 0 15px 15px;
-  overflow: hidden;
-  z-index: 2;
-  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease-in;
-}
-.registration-form .input-section.folded {
-  width: 95%;
-  margin-top: 10px;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-  z-index: 1;
-}
-.registration-form .input-section.folded input {
-  background-color: #e9e2c0;
-}
-.registration-form .input-section.folded span {
-  background-color: #e9e2c0;
-}
-.registration-form .input-section.folded + .folded {
-  width: 90%;
-  margin-top: 20px;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-  z-index: 0;
-}
-.registration-form .input-section.folded + .folded input {
-  background-color: #e1bcef;
-}
-.registration-form .input-section.folded + .folded span {
-  background-color: #e1bcef;
-}
-.registration-form .input-section.fold-up {
-  margin-top: -75px;
-}
-.registration-form form input {
-  background: white;
-  color: #8f8fd6;
-  width: 80%;
-  border: 0;
-  padding: 20px 40px;
-  margin: 0;
-}
-.registration-form form input:focus {
-  outline: none;
-}
-.registration-form form input::-webkit-input-placeholder {
-  color: #8f8fd6;
-  font-weight: 100;
-}
-.registration-form form input:-ms-input-placeholder {
-  color: #8f8fd6;
-  font-weight: 100;
-}
-.registration-form form input::-ms-input-placeholder {
-  color: #8f8fd6;
-  font-weight: 100;
-}
-.registration-form form input::placeholder {
-  color: #8f8fd6;
-  font-weight: 100;
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.animated-button {
-  width: 20%;
-  background-color: #d4d4ff;
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
 }
-.animated-button span {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  line-height: 75px;
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
   text-align: center;
-  height: 75px;
-  transition: all 0.2s ease-in;
-}
-.animated-button span i {
-  font-size: 25px;
-  color: #9999f8;
-}
-.animated-button .next-button {
-  background: transparent;
-  color: #9999f8;
-  font-weight: 100;
-  width: 100%;
-  border: 0;
+  font-size: 15px;
 }
 
-.next {
-  margin-top: -75px;
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
 }
 
-.success {
-  width: 100%;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-  height: 75px;
-  border-radius: 0 0 15px 15px;
-  overflow: hidden;
-  z-index: 2;
-  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease-in;
-  background: limegreen;
-  margin-top: -75px;
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
 }
-.success p {
-  color: white;
-  font-weight: 900;
-  letter-spacing: 2px;
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
   font-size: 18px;
-  width: 100%;
   text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
 }
 .footer {
     position: relative;

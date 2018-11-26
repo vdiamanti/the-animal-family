@@ -17,7 +17,6 @@ img {
   width: 45%;
 }
 .navbar {
-    background-color: #ffffff;
     overflow: hidden;
     position: absolute;
     top: 28px;
@@ -31,8 +30,7 @@ img {
     font-weight: bold;
 }
 .navbar a:hover {
-  background-color: #8a6bb9;
-  color: #ffffff;
+  color: #8a6bb9;
   font-style: italic;
 }
 .container2{
