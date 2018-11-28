@@ -11,8 +11,8 @@ img {
   top: 20px;
   right: 20px;
   padding: 25px 25px 25px 25px;
-  position:fixed;
-  width: 40%;
+  position:absolute;
+  width: 60%;
 }
 .navbar {
     overflow: hidden;
