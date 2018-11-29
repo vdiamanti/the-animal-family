@@ -9,30 +9,65 @@ img {
 .jumbotron {
   background-color: transparent !important;
 }
-.container1 {
-  top: 28px;
-  right: 20px;
-  padding: 25px 25px 25px 25px;
-  position:fixed;
-  width: 45%;
+/* this is the menu - top, logo, fixed on top */
+.top	{
+position: fixed;
+z-index: 5000;
+background: #ffffff;
+width: 100%;
+top: 0px;
 }
-.navbar {
-    overflow: hidden;
-    position: absolute;
-    top: 28px;
-    right: 20px;
+.logo {
+    padding: 0 0 0 20px;
+    width: 100px;
+    height: 100px;
 }
-.navbar a {
+.mainMenu ul {
+    float: right;
+    padding-left: 0;
+    margin-bottom: 0;
+    line-height: 60px;
+}
+.mainMenu li {
+    list-style-type: none;
+    display: inline-block;
+}
+.mainMenu li a {
+    display: block;
+    text-transform: uppercase;
+}
+#top-menu {
+    background: #ffffff;
+}
+#top-menu ul {
+  float: right;
+}
+#top-menu li {
+    float: left;
+    line-height: 60px;
+    display: inline-block;
+}
+#top-menu a {
+    display: block;
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+    transition: 1s all ease;
     color: #0489a9;
-    text-align: center;
-    padding: 25px 25px 25px 25px;
-    font-size: 18px;
-    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
 }
-.navbar a:hover {
-  color: #8a6bb9;
-  font-style: italic;
+#top-menu a:hover {
+    color: #ffffff;
+    background: #8a6bb9;
 }
+#top-menu li.active a {
+    color: #ffffff;
+    background: #72b842;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+/* menu ends here */
 .container2{
     background-image: url("../img/4701213993_5ea81764ff_b.jpg");
     height: 700px;
