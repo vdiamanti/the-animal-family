@@ -139,12 +139,6 @@ h1 {
   clear: both;
   display: table;
 }
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 300px) {
-  .column {
-    width: 100%;
-  }
-}
 #fam1 {
   background: #8a6bb9;
   color: #ffffff;
@@ -213,6 +207,9 @@ h1 {
 #familyvids {
   background: #0489a9;
 }
+#familyvids video {
+  max-width: 100%;
+}
 #fam2 {
   background: #0489a9;
   color: #ffffff;
@@ -227,9 +224,6 @@ h1 {
   padding: 5px 5px 5px 5px;
   top: 65px;
   position: relative;
-}
-#tink-vid {
-  left: -35px
 }
 .hr {
   width: 80%;
