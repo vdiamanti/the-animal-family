@@ -143,14 +143,13 @@ marquee {
   font-size: 25px;
   color: #0489a9;
 }
-#Carousel img {
-  width: 60%;
-  height: 500px;
-}
 .carousel-inner img {
   margin:auto;
 }
 #share-buttons img {
   width: 50px;
   padding: 5px;
+}
+#share-buttons {
+  text-align: center;
 }
