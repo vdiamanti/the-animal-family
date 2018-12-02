@@ -266,3 +266,6 @@ h1 {
   width: 50px;
   padding: 5px;
 }
+#share-buttons {
+  text-align: center;
+}
