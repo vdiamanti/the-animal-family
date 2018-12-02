@@ -10,6 +10,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $("#submitvi").click(function() {
+      $(this).text('Thank you! Check our Instagram for real-time news - Fluffy & Trixie');
+      return false;
+    })
+    $("#submitc").click(function() {
+      $(this).text('Thank you! We love you - Tinkerbell & Maisie');
+      return false;
+    })
+  })
+
+  </script>
+
 </head>
 <body>
   <div class="container-fluid">
@@ -62,7 +76,7 @@
                         <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Tinkerbell</label><br>
                         <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Both!</label>
                       </fieldset>
-                      <button type="submit">Sign Me Up!</button>
+                      <button type="submit" id="submitc">Sign Me Up!</button>
                     </form>
                   </div>
                   <div id="violetafollow" class="col-xs-6">
@@ -86,7 +100,7 @@
                           <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Trixie</label><br>
                           <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Both!</label>
                         </fieldset>
-                        <button type="submit">Sign Me Up!</button>
+                        <button type="submit" id="submitvi">Sign Me Up!</button>
                       </form>
                     </div>
 
