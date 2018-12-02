@@ -143,9 +143,7 @@ marquee {
 .carousel-inner img {
   margin:auto;
 }
-.footer {
-    position: relative;
-    text-align: center;
-    margin-left: 350px;
-    margin-right: 350px;
+#share-buttons img {
+ width: 50px;
+ padding: 5px;
 }

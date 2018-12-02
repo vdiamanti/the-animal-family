@@ -203,22 +203,15 @@ h1 {
 /* overlay ends here */
 
 * {
-    box-sizing: border-box;
-}
-
-.famvid {
-    float: left;
-    width: 33.33%;
-    padding: 1px;
+  box-sizing: border-box;
 }
 #familyvids::after {
-    content: "";
-    clear: both;
-    display: block;
+  content: "";
+  clear: both;
+  display: block;
 }
-
   #familyvids {
-    background:#0489a9;
+  background: #0489a9;
   }
 #fam2 {
   background: #0489a9;
@@ -236,7 +229,7 @@ h1 {
   position: relative;
 }
 #tink-vid {
-    left: -35px
+  left: -35px
 }
 .hr {
   width: 80%;
@@ -249,31 +242,29 @@ h1 {
   border: 0 none;
  }
  #fam3 {
-   background: #ffffff;
-   color: #8a6bb9;
-   text-align: center;
-   height: 10%;
-   width:100%;
-   vertical-align: middle;
-   margin: auto;
-   line-height: 30px;
-   top: 65px;
-   padding: 5px 5px 5px 5px;
+  background: #ffffff;
+  color: #8a6bb9;
+  text-align: center;
+  height: 10%;
+  width:100%;
+  vertical-align: middle;
+  line-height: 30px;
+  top: 65px;
+  padding: 5px 5px 5px 5px;
  }
  #row {
-   border-bottom: 1px groove #8a6bb9;
-   padding-bottom: 5px;
+  border-bottom: 1px groove #8a6bb9;
+  padding-bottom: 5px;
+  margin-left: 10px;
  }
  #volume {
-   padding-top: 5px;
-   padding-bottom: 5px;
-   margin-top: 2px;
-   margin-bottom: 2px;
-   text-align: justify;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-align: justify;
  }
-.footer {
-    position: relative;
-    text-align: center;
-    margin-left: 350px;
-    margin-right: 350px;
-}
+ #share-buttons img {
+  width: 50px;
+  padding: 5px;
+ }
