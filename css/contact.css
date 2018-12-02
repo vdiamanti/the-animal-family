@@ -9,60 +9,60 @@ img {
 }
 /* this is the menu - top, logo, fixed on top */
 .top	{
-position: fixed;
-z-index: 5000;
-background: #ffffff;
-width: 100%;
-top: 0px;
+  position: fixed;
+  z-index: 5000;
+  background: #ffffff;
+  width: 100%;
+  top: 0px;
 }
 .logo {
-    padding: 0 0 0 20px;
-    width: 100px;
-    height: 100px;
+  padding: 0 0 0 20px;
+  width: 100px;
+  height: 100px;
 }
 .mainMenu ul {
-    float: right;
-    padding-left: 0;
-    margin-bottom: 0;
-    line-height: 60px;
+  float: right;
+  padding-left: 0;
+  margin-bottom: 0;
+  line-height: 60px;
 }
 .mainMenu li {
-    list-style-type: none;
-    display: inline-block;
+  list-style-type: none;
+  display: inline-block;
 }
 .mainMenu li a {
-    display: block;
-    text-transform: uppercase;
+  display: block;
+  text-transform: uppercase;
 }
 #top-menu {
-    background: #ffffff;
+  background: #ffffff;
 }
 #top-menu ul {
   float: right;
 }
 #top-menu li {
-    float: left;
-    line-height: 60px;
-    display: inline-block;
+  float: left;
+  line-height: 60px;
+  display: inline-block;
 }
 #top-menu a {
-    display: block;
-    -webkit-transition: 1s all ease;
-    -moz-transition: 1s all ease;
-    transition: 1s all ease;
-    color: #0489a9;
-    text-decoration: none;
-    font-size: 14px;
+  display: block;
+  -webkit-transition: 1s all ease;
+  -moz-transition: 1s all ease;
+  transition: 1s all ease;
+  color: #0489a9;
+  text-decoration: none;
+  font-size: 14px;
 }
 #top-menu a:hover {
-    color: #ffffff;
-    background: #8a6bb9;
+  color: #ffffff;
+  background: #8a6bb9;
 }
 #top-menu li.active a {
-    color: #ffffff;
-    background: #72b842;
-    line-height: 60px;
-    font-size: 14px;
+  color: #ffffff;
+  background: #72b842;
+  line-height: 60px;
+  font-size: 14px;
 }
 
 /* menu ends here */
@@ -197,6 +197,6 @@ label.light {
 
 }
 #share-buttons img {
- width: 50px;
- padding: 5px;
+  width: 50px;
+  padding: 5px;
 }

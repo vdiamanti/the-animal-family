@@ -10,88 +10,88 @@ img {
 
 /* this is the menu - top, logo, fixed on top */
 .top	{
-position: fixed;
-z-index: 5000;
-background: #ffffff;
-width: 100%;
-top: 0px;
+  position: fixed;
+  z-index: 5000;
+  background: #ffffff;
+  width: 100%;
+  top: 0px;
 }
 .logo {
-    padding: 0 0 0 20px;
-    width: 100px;
-    height: 100px;
+  padding: 0 0 0 20px;
+  width: 100px;
+  height: 100px;
 }
 .mainMenu ul {
-    float: right;
-    padding-left: 0;
-    margin-bottom: 0;
-    line-height: 60px;
+  float: right;
+  padding-left: 0;
+  margin-bottom: 0;
+  line-height: 60px;
 }
 .mainMenu li {
-    list-style-type: none;
-    display: inline-block;
+  list-style-type: none;
+  display: inline-block;
 }
 .mainMenu li a {
-    display: block;
-    text-transform: uppercase;
+  display: block;
+  text-transform: uppercase;
 }
 #top-menu {
-    background: #ffffff;
+  background: #ffffff;
 }
 #top-menu ul {
   float: right;
 }
 #top-menu li {
-    float: left;
-    line-height: 60px;
-    display: inline-block;
+  float: left;
+  line-height: 60px;
+  display: inline-block;
 }
 #top-menu a {
-    display: block;
-    -webkit-transition: 1s all ease;
-    -moz-transition: 1s all ease;
-    transition: 1s all ease;
-    color: #0489a9;
-    text-decoration: none;
-    font-size: 14px;
+  display: block;
+  -webkit-transition: 1s all ease;
+  -moz-transition: 1s all ease;
+  transition: 1s all ease;
+  color: #0489a9;
+  text-decoration: none;
+  font-size: 14px;
 }
 #top-menu a:hover {
-    color: #ffffff;
-    background: #8a6bb9;
+  color: #ffffff;
+  background: #8a6bb9;
 }
 #top-menu li.active a {
-    color: #ffffff;
-    background: #72b842;
-    line-height: 60px;
-    font-size: 14px;
+  color: #ffffff;
+  background: #72b842;
+  line-height: 60px;
+  font-size: 14px;
 }
 
 /* menu ends here */
 
 /* main image starts here - will it work on IE? Doesn't seem to like the laptop browsers... Ask one of the guys */
 .container2{
-    background-image: url("../img/4701213993_5ea81764ff_b.jpg");
-    height: 700px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    top: 65px;
+  background-image: url("../img/4701213993_5ea81764ff_b.jpg");
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 65px;
 }
 .h1box {
-    border-style: groove;
-    border-color: #0489a9;
-    border-width: 2px;
-    background: #0489a9;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    opacity: 0.75;
-    width: 50%;
-    height: 100px;
+  border-style: groove;
+  border-color: #0489a9;
+  border-width: 2px;
+  background: #0489a9;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 0.75;
+  width: 50%;
+  height: 100px;
 }
 h1 {
   color: #ffffff;
@@ -126,24 +126,24 @@ h1 {
   background: #8a6bb9;
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .fam1 {
-    float: left;
-    width: 33.33%;
-    padding: 1px;
-  }
+  float: left;
+  width: 33.33%;
+  padding: 1px;
+}
 /* Clearfix (clear floats) */
 .familypics::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 300px) {
-    .column {
-        width: 100%;
-    }
+  .column {
+    width: 100%;
+  }
 }
 #fam1 {
   background: #8a6bb9;
@@ -210,9 +210,9 @@ h1 {
   clear: both;
   display: block;
 }
-  #familyvids {
+#familyvids {
   background: #0489a9;
-  }
+}
 #fam2 {
   background: #0489a9;
   color: #ffffff;
@@ -240,8 +240,8 @@ h1 {
   background-color:#fff209;
   color:#fff209;
   border: 0 none;
- }
- #fam3 {
+}
+#fam3 {
   background: #ffffff;
   color: #8a6bb9;
   text-align: center;
@@ -251,20 +251,20 @@ h1 {
   line-height: 30px;
   top: 65px;
   padding: 5px 5px 5px 5px;
- }
- #row {
+}
+#row {
   border-bottom: 1px groove #8a6bb9;
   padding-bottom: 5px;
   margin-left: 10px;
- }
- #volume {
+}
+#volume {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 2px;
   margin-bottom: 2px;
   text-align: justify;
- }
- #share-buttons img {
+}
+#share-buttons img {
   width: 50px;
   padding: 5px;
- }
+}
