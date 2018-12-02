@@ -73,16 +73,28 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   top: 65px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
-#carolynfollow {
-  left: 5px;
-  top: 75px;
-  opacity: 0.85;
+@media (max-width: 768px) {
+  #carolynfollow {
+    top: 175px;
+    opacity: 0.85;
+  }
+  #violetafollow {
+    top: 175px;
+    opacity: 0.85;
+  }
 }
-#violetafollow {
-  right: 5px;
-  top: 75px;
-  opacity: 0.85;
+@media (min-width: 768px) {
+  #carolynfollow {
+    top: 75px;
+    opacity: 0.85;
+  }
+  #violetafollow {
+    top: 75px;
+    opacity: 0.85;
+  }
 }
 *, *:before, *:after {
   -moz-box-sizing: border-box;
